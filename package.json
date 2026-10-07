@@ -1,0 +1,27 @@
+{
+  "name": "lusion-motion",
+  "version": "1.0.0",
+  "description": "Premium editorial motion film for Lusion.co",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/root.tsx LusionFilm out/video.mp4 --concurrency=4",
+    "build:prores": "remotion render src/root.tsx LusionFilm out/video.mov --codec=prores --pro-res-profile=hq",
+    "preview": "remotion preview src/root.tsx LusionFilm",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.287",
+    "@remotion/eslint-config": "^4.0.287",
+    "@remotion/shapes": "^4.0.287",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.287"
+  },
+  "devDependencies": {
+    "@rspack/binding-win32-arm64-msvc": "^2.2.8",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
