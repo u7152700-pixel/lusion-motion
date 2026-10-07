@@ -27,9 +27,9 @@ export const colors = {
 };
 
 export const typography = {
-  display: '"Aeonik", "Helvetica Neue", Helvetica, Arial, sans-serif',
-  editorial: '"Aeonik", "Helvetica Neue", Helvetica, Arial, sans-serif',
-  mono: '"Space Mono", "SF Mono", "Fira Code", monospace',
+  display: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+  editorial: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+  mono: '"SF Mono", "Fira Code", monospace',
   size: {
     micro: "11px",
     small: "13px",
